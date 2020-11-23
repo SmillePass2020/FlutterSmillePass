@@ -15,39 +15,36 @@ import 'package:smilepass_usuarios/src/paginas/seleccion/aceptacionproducto_page
 import 'package:smilepass_usuarios/src/paginas/seleccion/seleccionproducto_page.dart';
 import 'package:smilepass_usuarios/src/paginas/smartpass/cuentasmartpass.dart';
 import 'package:smilepass_usuarios/src/paginas/sugeridos_page.dart';
-
-
+import 'package:smilepass_usuarios/src/paginas/login/login_page.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-
     return MaterialApp(
       title: 'SmilePass',
       debugShowCheckedModeBanner: false,
       initialRoute: 'home',
       routes: {
-
-        'home'               : (BuildContext context) => HomePageUsuarios(), 
-        'progreso'           : (BuildContext context) => ProgresoUsuarioPage(), 
-        'sugeridos'          : (BuildContext context) => SugeridosUsuariosPage(),
-        'favoritos'          : (BuildContext context) => FavoritosUsuariosPage(),
-        'miscupones'         : (BuildContext context) => CuponesUsuariosPage(),
-        'perfil'             : (BuildContext context) => PerfilUsuarioPage(),
-        'ayuda'              : (BuildContext context) => AyudaUsuarioPage(), 
-        'comida'             : (BuildContext context) => ComidaPage(), 
-        'seleccion'          : (BuildContext context) => SeleccionProductoPage(),
-        'voucherlisto'       : (BuildContext context) => AceptacionProductoPage(), 
-        'progresoporrubro'   : (BuildContext context) => NivelesIndividuales(),
-        'seleccionlocal'     : (BuildContext context) => SeleccionLocalesPage(),
-        'notificaciones'     : (BuildContext context) => HomeNotificacionesPage(),
-        'smartpass'          : (BuildContext context) => CuentaSmartPassPage(),
-        'configuracion'      : (BuildContext context) => ConfiguracionPage(), 
-        'usuarioycontraseña' : (BuildContext context) => UsuarioyContrasenaPage(),
-        
+        'login': (BuildContext context) => Login(),
+        'home': (BuildContext context) => HomePageUsuarios(),
+        'progreso': (BuildContext context) => ProgresoUsuarioPage(),
+        'sugeridos': (BuildContext context) => SugeridosUsuariosPage(),
+        'favoritos': (BuildContext context) => FavoritosUsuariosPage(),
+        'miscupones': (BuildContext context) => CuponesUsuariosPage(),
+        'perfil': (BuildContext context) => PerfilUsuarioPage(),
+        'ayuda': (BuildContext context) => AyudaUsuarioPage(),
+        'comida': (BuildContext context) => ComidaPage(),
+        'seleccion': (BuildContext context) => SeleccionProductoPage(),
+        'voucherlisto': (BuildContext context) => AceptacionProductoPage(),
+        'progresoporrubro': (BuildContext context) => NivelesIndividuales(),
+        'seleccionlocal': (BuildContext context) => SeleccionLocalesPage(),
+        'notificaciones': (BuildContext context) => HomeNotificacionesPage(),
+        'smartpass': (BuildContext context) => CuentaSmartPassPage(),
+        'configuracion': (BuildContext context) => ConfiguracionPage(),
+        'usuarioycontraseña': (BuildContext context) =>
+            UsuarioyContrasenaPage(),
       },
       theme: ThemeData(
         primaryColor: Colors.white,
@@ -56,4 +53,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

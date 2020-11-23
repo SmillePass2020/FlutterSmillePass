@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "630257201768",
+    "firebase_url": "https://smillepass.firebaseio.com",
+    "project_id": "smillepass",
+    "storage_bucket": "smillepass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630257201768:android:79dc7d0ef69c3ccb5301dd",
+        "android_client_info": {
+          "package_name": "com.example.smilepass_usuarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630257201768-ujdblv3r6f1kd72qnchig1log5nt4jlb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smilepass_usuarios",
+            "certificate_hash": "c39d825874fc0ded7a324adff66e6a1639db6b1e"
+          }
+        },
+        {
+          "client_id": "630257201768-hom3l9481erimdkjeqsp7rgnjd7mlib1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgfJUjxXwbx2mmLEO8zj-LLMGIXbNVRiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630257201768-hom3l9481erimdkjeqsp7rgnjd7mlib1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
